@@ -30,14 +30,14 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="고성 모네블루 스파 펜션 - 객실안내" />
   <meta property="og:description" content="송지호 해수욕장 바로 앞, 바다가 수평선 너머로 펼쳐지는 인피니티풀이 있는 고성 오션뷰 펜션 모네블루 입니다. 가족들과 호캉스를 즐겨보세요" />
-  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/15/YEB52W4KGxa1.jpg" />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/15/yJ1L9B05btUZ.jpg" />
   <meta property="og:url" content="https://moneblue.kr" />
 
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="고성 모네블루 스파 펜션 - 객실안내" />
   <meta name="twitter:description" content="송지호 해수욕장 바로 앞, 바다가 수평선 너머로 펼쳐지는 인피니티풀이 있는 고성 오션뷰 펜션 모네블루 입니다. 가족들과 호캉스를 즐겨보세요" />
-  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/15/YEB52W4KGxa1.jpg" />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/15/yJ1L9B05btUZ.jpg" />
   <meta name="naver-site-verification" content="9e50e65b9d9a20903fd93bbe48dc8ed0aeb51849" />
   <meta name="google-site-verification" content="1uUWp3jaWAfrz6s6BGR6GilcYCDMVyJVdQEQviTIrZg" />
 </head>
@@ -243,6 +243,14 @@
                 </div>
               </div>
             </div>
+            <!-- s: 객실 평면도 — 원본 객실 상세의 평면도 크롤링 이미지가 있을 때만 노출.
+                 제목 영역 없이 도면 이미지 한 장만 놓는다. 없으면 매퍼가 구간째 숨긴다. -->
+            <div class="room_floorplan" data-room-floorplan-section style="display: none">
+              <!-- data-* : data-room-floorplan-image
+                   roomtypes[current] 평면도 이미지 → 없으면 섹션 미노출 -->
+              <img alt="객실 평면도" data-room-floorplan-image />
+            </div>
+            <!--// 객실 평면도 -->
             <div
               class="main_room"
               style="background: color-mix(in srgb, var(--color-primary) 55%, transparent)"

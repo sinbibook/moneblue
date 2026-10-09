@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.6.0",
-    "generatedAt": "2026-10-08T07:12:32.877025032Z",
+    "version": "1.7.0",
+    "generatedAt": "2026-10-09T07:11:15.640972082Z",
     "templateType": "trip_d",
     "propertyId": "60b2704c-e3dc-4539-ba3c-302391beb358",
     "homepageId": "52ea3a24-a64b-4062-8a22-c592234a1e5d"
@@ -29,6 +29,9 @@
     "domain": "moneblue.kr",
     "realtimeBookingId": "https://booking.naver.com/booking/3/bizes/948367",
     "ybsId": "69733",
+    "tripPropertyId": "3440",
+    "partnerType": "distributor_a",
+    "tripProviderName": "트립일레븐",
     "amenities": [
       "엘리베이터",
       "편의점/매점",
@@ -449,10 +452,7 @@
         "surrounding": [ ],
         "commonArea": [ ]
       }
-    ],
-    "tripPropertyId": "3440",
-    "partnerType": "distributor_a",
-    "tripProviderName": "트립일레븐"
+    ]
   },
   "rooms": [
     {
